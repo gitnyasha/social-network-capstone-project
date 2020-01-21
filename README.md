@@ -42,4 +42,4 @@ Give a ⭐️ if you like this project!
 This project is [MiT](lic.url) licensed.
 
 ### Enjoy!
-
+ Took an inspiration from a design idea by Vlad Ermakov on Dribbble
