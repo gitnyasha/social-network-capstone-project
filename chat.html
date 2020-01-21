@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Chat Page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 
@@ -67,8 +68,8 @@
     </nav>
 
     <div class="container-fluid mt-2">
-        <div class="row myOrder">
-            <div class="col-md pl-5 one m-3">
+        <div class="row">
+            <div class="col-md pl-5 hide m-2">
                 <div class="row border rounded card pl-2">
                     <div>
                         <h2>
@@ -85,7 +86,7 @@
                 <div class="row mt-3 border cards">
                     <ul class="list-unstyled">
                         <li><a href="#"><i class='fas fa-user-friends' style='font-size:24px'></i> Groups</a></li>
-                        <li><a href="chats.html"><i class='fas fa-envelope' style='font-size:24px'></i> Messages</a></li>
+                        <li><a href="#"><i class='fas fa-envelope' style='font-size:24px'></i> Messages</a></li>
                         <li><a href="#"><i class='fas fa-address-book' style='font-size:24px'></i> Friends</a></li>
                         <li><a href="chats.html"><i class='fas fa-star' style='font-size:24px'></i> Chats</a></li>
                     </ul>
@@ -104,60 +105,60 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-5 m-3 two">
-                <div class="row p-2 select-profile cards">
-                    <a href="next.html" class="btn btn-dark btns">Prev</a>
-                    <ul class="list-inline scrollmenu">
-                        <li class="list-inline-item">
-                            <a href="#"><img src="images/index.jpeg" alt="..." class="img-profile"></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#"><img src="images/index.jpeg" alt="..." class="img-profile"></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#"><img src="images/index.jpeg" alt="..." class="img-profile"></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#"><img src="images/index.jpeg" alt="..." class="img-profile"></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#"><img src="images/index.jpeg" alt="..." class="img-profile"></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#"><img src="images/index.jpeg" alt="..." class="img-profile"></a>
-                        </li>
-                    </ul>
-                    <a href="next.html" class="btn btn-dark btns">Next</a>
-                </div>
-                <div class="row">
-                    <img src="images/me.png" class="img-fluid rounded" alt="Responsive image">
-                </div>
-            </div>
-            <div class="col-md pr-5 three m-3">
-                <div class="row border rounded pl-2 cards">
-                    <ul class="list-unstyled">
-                        <li><small class="text-muted">Name</small></li>
-                        <li>Phasellus iaculis neque</li>
-                        <li><small class="text-muted">Status</small></li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos alias odio modi! Alias, at obcaecati? Facere impedit</li>
-                    </ul>
-                </div>
-                <div class="row border mt-3 rounded p-3 cards">
-                    <h4 class="text-muted">Coming Event</h4>
-                    <img src="images/audience-868074_640.jpg" alt="..." class="img-thumbnail">
-                    <div class="col-8">
-                        <p>20 January 2020
-                        </p>
+            <div class="col-md-8 m-2">
+                <div class="containers">
+                    <div class="mesgs cards p-2">
+                        <div class="msg_history">
+                            <div class="incoming_msg">
+                                <div class="incoming_msg_img"> <img src="images/index.jpeg" alt="sunil"> </div>
+                                <div class="received_msg">
+                                    <div class="received_withd_msg">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisqua</p>
+                                        <span class="time_date"> 11:01 AM    |    January 20</span></div>
+                                </div>
+                            </div>
+                            <div class="outgoing_msg">
+                                <div class="sent_msg">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisqua</p>
+                                    <span class="time_date"> 11:01 AM    |    January 20</span> </div>
+                            </div>
+                            <div class="incoming_msg">
+                                <div class="incoming_msg_img"> <img src="images/index.jpeg" alt="sunil"> </div>
+                                <div class="received_msg">
+                                    <div class="received_withd_msg">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisqua</p>
+                                        <span class="time_date"> 11:01 AM    |    Yesterday</span></div>
+                                </div>
+                            </div>
+                            <div class="outgoing_msg">
+                                <div class="sent_msg">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisqua</p>
+                                    <span class="time_date"> 11:01 AM    |    Today</span> </div>
+                            </div>
+                            <div class="incoming_msg">
+                                <div class="incoming_msg_img"> <img src="images/index.jpeg" alt="sunil"> </div>
+                                <div class="received_msg">
+                                    <div class="received_withd_msg">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisqua</p>
+                                        <span class="time_date"> 11:01 AM    |    Today</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="type_msg">
+                            <div class="input_msg_write">
+                                <input type="text" class="write_msg" placeholder="Type a message" />
+                                <button class="msg_send_btn" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
                     </div>
-                    <a href="#" class="btn btn-dark orange">More info</a>
+
                 </div>
             </div>
         </div>
-    </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>
