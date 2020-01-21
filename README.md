@@ -2,7 +2,7 @@
 
 A social network website using bootstrap
 
-![Screenshot from 2020-01-08 11-14-18]()
+![Screenshot from 2020-01-21 17-02-35](https://user-images.githubusercontent.com/45620987/72815951-1e440780-3c70-11ea-8b8a-83cafb34b6ec.png)
 
 # What it does
 
@@ -18,7 +18,7 @@ It displays my skills in create a full responsive website using bootstrap
 
 ## Live Demo
 
-[Live Demo]()
+[Live Demo](https://modest-cray-37e97a.netlify.com/)
 
 ## Getting Started
 
