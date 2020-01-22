@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chats Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet" />
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Social Network Site</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+            <div class="form-inline my-2 my-lg-0">
+                <div class="dropdown">
+                    <a href="#"><i class='fas fa-envelope' style='font-size:24px' title="messages"></i>
+              </a>
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class='fas fa-bell' style='font-size:24px' title="notifications"></i>
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Notification</a>
+                        <a class="dropdown-item" href="#">Notification</a>
+                        <a class="dropdown-item" href="#">Notification</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class='fas fa-user-circle' style='font-size:24px' title="user"></i>
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Login</a>
+                        <a class="dropdown-item" href="#">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-2">
+        <div class="row">
+            <div class="col-md m-2 pl-3 hide">
+                <div class="row border rounded card pl-2">
+                    <div>
+                        <h2>
+                            <small class="text-muted">Marshall Chikari</small>
+                        </h2>
+                    </div>
+                    <div>
+                        <p><small class="text-muted">Location</small> <br>Harare, Zimbabwe</p>
+                    </div>
+                    <div>
+                        <p><small class="text-muted">1001</small> Posts</p>
+                    </div>
+                </div>
+                <div class="row mt-3 border cards">
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class='fas fa-user-friends' style='font-size:24px'></i> Groups</a></li>
+                        <li><a href="#"><i class='fas fa-envelope' style='font-size:24px'></i> Messages</a></li>
+                        <li><a href="#"><i class='fas fa-address-book' style='font-size:24px'></i> Friends</a></li>
+                        <li><a href="chats.html"><i class='fas fa-star' style='font-size:24px'></i> Chats</a></li>
+                    </ul>
+                </div>
+                <div class="row mt-3 border p-2 cards">
+                    <div class="col-8">
+                        <p><small class="text-muted">Interests</small></p>
+                    </div>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#">Football</a> </li>
+                        <li class="list-inline-item"><a href="#">Cricket</a></li>
+                        <li class="list-inline-item"><a href="#">Movies</a></li>
+                        <li class="list-inline-item"><a href="#">Link</a></li>
+                        <li class="list-inline-item"><a href="#">Link</a></li>
+                        <li class="list-inline-item"><a href="#">Link</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-8 m-2">
+                <div class="containers">
+                    <div class="messaging">
+                        <div class="inbox_msg">
+                            <h3 class=" text-center">Chat List</h3>
+                            <div class="inbox_people">
+                                <div class="headind_srch">
+                                    <div class="recent_heading">
+                                        <h4>Recent</h4>
+                                    </div>
+                                    <div class="srch_bar">
+                                        <div class="stylish-input-group">
+                                            <input type="text" class="search-bar" placeholder="Search">
+                                            <span class="input-group-addon">
+                                    <button type="button"> <i class="fa fa-search" aria-hidden="true"></i> </button>
+                                    </span> </div>
+                                    </div>
+                                </div>
+                                <div class="inbox_chat">
+                                    <a href="chat.html">
+                                        <div class="chat_list active_chat">
+                                            <div class="chat_people">
+                                                <div class="chat_img"> <img src="images/self.png" class="img-thumbnail rounded" alt="sunil"> </div>
+                                                <div class="chat_ib">
+                                                    <h5>Marshall Chikari <span class="chat_date">Dec 25</span></h5>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisqua</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <div class="chat_list">
+                                        <a href="chat.html">
+                                            <div class="chat_people">
+                                                <div class="chat_img"> <img src="images/self.png" class="img-thumbnail rounded" alt="sunil"> </div>
+                                                <div class="chat_ib">
+                                                    <h5>Marshall Chikari <span class="chat_date">Dec 25</span></h5>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisqua</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="chat_list">
+                                        <a href="chat.html">
+                                            <div class="chat_people">
+                                                <div class="chat_img"> <img src="images/self.png" class="img-thumbnail rounded" alt="sunil"> </div>
+                                                <div class="chat_ib">
+                                                    <h5>Marshall Chikari <span class="chat_date">Dec 25</span></h5>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisqua</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="chat_list">
+                                        <a href="chat.html">
+                                            <div class="chat_people">
+                                                <div class="chat_img"> <img src="images/self.png" class="img-thumbnail rounded" alt="sunil"> </div>
+                                                <div class="chat_ib">
+                                                    <h5>Marshall Chikari <span class="chat_date">Dec 25</span></h5>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisqua</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="chat_list">
+                                        <a href="chat.html">
+                                            <div class="chat_people">
+                                                <div class="chat_img"> <img src="images/self.png" class="img-thumbnail rounded" alt="sunil"> </div>
+                                                <div class="chat_ib">
+                                                    <h5>Marshall Chikari <span class="chat_date">Dec 25</span></h5>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisqua</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="chat_list">
+                                        <a href="chat.html">
+                                            <div class="chat_people">
+                                                <div class="chat_img"> <img src="images/self.png" class="img-thumbnail rounded" alt="sunil"> </div>
+                                                <div class="chat_ib">
+                                                    <h5>Marshall Chikari <span class="chat_date">Dec 25</span></h5>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisqua</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="chat_list">
+                                        <a href="chat.html">
+                                            <div class="chat_people">
+                                                <div class="chat_img"> <img src="images/self.png" class="img-thumbnail rounded" alt="sunil"> </div>
+                                                <div class="chat_ib">
+                                                    <h5>Marshall Chikari <span class="chat_date">Dec 25</span></h5>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisqua</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
